@@ -1,0 +1,20 @@
+version = 0.1
+
+[default.build.parameters]
+template_file = "c:\\Users\\davys\\Documents\\PyProjects\\API-serverless\\lambda_funtion\\template.yaml"
+cached = true
+parallel = true
+use_container = true
+
+[default.global.parameters]
+region = "us-east-1"
+stack_name = "my-appi-serverless"
+
+[default.sync.parameters]
+template_file = "c:\\Users\\davys\\Documents\\PyProjects\\API-serverless\\lambda_funtion\\template.yaml"
+dependency_layer = false
+code = true
+watch = true
+
+[default.sync.parameters.parameter_overrides]
+EnvironmentName = "dev"
