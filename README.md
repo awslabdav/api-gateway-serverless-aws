@@ -1,2 +1,2 @@
-# api-gatewat-serverless
+# api-gateway-serverless
 api-gateway
